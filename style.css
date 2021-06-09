@@ -1,0 +1,42 @@
+:root {
+  --nyanza: #d8f3dcff;
+  --turquoise-green: #b7e4c7ff;
+  --turquoise-green-2: #95d5b2ff;
+  --ocean-green: #74c69dff;
+  --ocean-green-2: #52b788ff;
+  --illuminating-emerald: #40916cff;
+  --bottle-green: #2d6a4fff;
+  --brunswick-green: #1b4332ff;
+  --dark-jungle-green: #081c15ff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  background-color: var(--turquoise-green-2);
+}
+
+
+
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  height: 100vh;
+  width: 100vw;
+  margin: auto;
+  padding: 1rem;
+}
+
+section.hero {
+  height: 10rem;
+  background-color: #1b4332ff;
+  width: 100%;
+  color: red;
+}
