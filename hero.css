@@ -13,7 +13,7 @@ section.hero {
 section.hero .avatar img {
   height: 20rem;
   position: absolute;
-  right: -10%;
+  right: -12%;
   top: 1rem;
 }
 
@@ -45,6 +45,7 @@ section .info .whatsapp {
 
 section .info .phone {
   margin-bottom: 1rem;
+  width: 12rem;
 }
 
 section .info .instagram {
