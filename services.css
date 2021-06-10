@@ -1,0 +1,14 @@
+section.services {
+  height: 10rem;
+  width: 100%;
+}
+
+section.services .pacient {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+section.services .pacient img {
+  height: 20rem;
+}

@@ -1,0 +1,114 @@
+section.hero {
+  margin-bottom: 1rem;
+  height: 20rem;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1rem;
+}
+
+section.hero .avatar img {
+  height: 20rem;
+  position: absolute;
+  right: -10%;
+  top: 1rem;
+}
+
+section.hero .title {
+  width: 50%;
+  margin-bottom: 2rem;
+}
+
+section.hero .info {
+  text-align: start;
+  width: 60%;
+  font-weight: bold;
+}
+
+section.hero .info__name {
+  font-size: 24px;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+section.hero .info__crefito {
+  margin-bottom: 2rem;
+  display: block;
+}
+
+section .info .whatsapp {
+  margin-bottom: 1rem;
+}
+
+section .info .phone {
+  margin-bottom: 1rem;
+}
+
+section .info .instagram {
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+section .info .instagram img {
+  height: 40px;
+}
+
+@media only screen and (min-width: 900px) {
+  main {
+    width: 100vw;
+    max-width: 1400px;
+  }
+  section.hero {
+    height: 20rem;
+  }
+  section.hero .title {
+    width: 100%;
+    font-size: 3em;
+    margin-bottom: 2rem;
+  }
+  section.hero .social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  section.hero .info {
+    text-align: center;
+    width: 100%;
+  }
+  section.hero .info__name {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  section .info .whatsapp, section .info .instagram,
+  section .info .phone {
+    width: 12rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+  }
+  
+  section.hero .info__crefito {
+    font-size: 28px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 2rem;
+  }
+  section.hero .avatar {
+    width: 100%;
+    height: 10rem;
+    text-align: right;
+  }
+  section.hero .avatar img {
+    height: 28rem;
+    position: initial;
+    transform: translateY(-45%);
+  }
+}
