@@ -35,3 +35,11 @@ section.services .pacient img {
   border-radius: 15px;
   height: 14rem;
 }
+
+@media only screen and (min-width: 900px) {
+  section.services {
+  }
+  section.services .pacient {
+    display: block;
+  }
+}
