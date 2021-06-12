@@ -55,9 +55,19 @@ section .info .instagram {
   justify-content: flex-start;
 }
 
+.instagram > a {
+  display: flex;
+  align-items: center;
+}
+
+.instagram > a img {
+  margin-right: 0.5rem;
+}
+
 section .info .instagram img {
   height: 40px;
 }
+
 
 @media only screen and (min-width: 900px) {
   main {
@@ -66,17 +76,19 @@ section .info .instagram img {
   }
   section.hero {
     height: 20rem;
+    display: flex;
+    flex-direction: column;
   }
   section.hero .title {
-    width: 100%;
+    width: 60%;
     font-size: 3em;
+    display: block;
+    margin: 0 auto;
     margin-bottom: 2rem;
   }
   section.hero .social {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
   }
   section.hero .info {
     text-align: center;
@@ -86,16 +98,17 @@ section .info .instagram img {
     font-size: 40px;
     font-weight: bold;
   }
-  section .info .whatsapp, section .info .instagram,
-  section .info .phone {
-    width: 12rem;
-    margin: 0 auto;
+  .whatsapp, .instagram, .phone {
+    min-width: 18rem;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     margin-bottom: 1rem;
   }
   
+  .whatsapp span, .instagram span, .phone span {
+    font-size: 24px;
+  }
   section.hero .info__crefito {
     font-size: 28px;
     font-weight: bold;
