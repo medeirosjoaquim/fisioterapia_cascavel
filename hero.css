@@ -82,7 +82,7 @@ section .info .instagram img {
     max-width: 1400px;
   }
   section.hero {
-    height: 32rem;
+    height: 28rem;
     display: flex;
     flex-direction: column;
   }
@@ -132,13 +132,14 @@ section .info .instagram img {
     transform: translateY(-45%);
   }
   section.hero .social {
-    display: flex;
-    flex-direction: column;
+    position: fixed;
     align-items: center;
-    width: 60%;
-    margin: 0 auto;
-  }
-  .whatsapp, .instagram, .phone {
-    width: 33%;
+    justify-content: center;
+    bottom: 0rem;
+    background-color: var(--bottle-green);
+    height: 4rem;
+    left: 25%;
+    bottom: 2%;
+    border-radius: 15px;
   }
 }
