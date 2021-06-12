@@ -1,14 +1,37 @@
 section.services {
-  height: 10rem;
+  height: 24rem;
   width: 100%;
+}
+
+section.services .title {
+  color: white;
+  margin-bottom: 0.5rem;
 }
 
 section.services .pacient {
   display: flex;
-  justify-content: center;
-  padding: 1rem;
+  justify-content: flex-end;
+  padding: 0.75rem 0;
+}
+
+section.services 
+.pacient 
+.services__list ul {
+  padding: 0 0.5rem;
+
+}
+
+section.services .pacient .services__list li {
+  font-size: 14px;
+  color: white;
+  font-weight: bold;
+  text-align: start;
+  line-height: 16px;
+  line-height: 20px;
 }
 
 section.services .pacient img {
-  height: 20rem;
+
+  border-radius: 15px;
+  height: 14rem;
 }

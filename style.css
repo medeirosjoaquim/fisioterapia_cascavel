@@ -21,7 +21,7 @@
 a, a:visited {
   text-decoration: none;
   color: inherit;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 html, body {
@@ -50,4 +50,5 @@ main {
   border-radius: 25px;
   background-color: var(--ocean-green);
   overflow-x: hidden;
+  overflow-y: auto;
 }

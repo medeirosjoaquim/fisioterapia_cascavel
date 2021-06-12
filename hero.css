@@ -1,6 +1,5 @@
 section.hero {
-  margin-bottom: 1rem;
-  height: 20rem;
+  height: 22rem;
   width: 100%;
   color: white;
   display: flex;
@@ -8,6 +7,7 @@ section.hero {
   align-items: flex-start;
   justify-content: flex-start;
   padding: 1rem;
+  padding-bottom: 0;
 }
 
 section.hero .avatar img {
@@ -35,12 +35,23 @@ section.hero .info__name {
 }
 
 section.hero .info__crefito {
-  margin-bottom: 2rem;
+  margin-bottom: 1.25rem;
   display: block;
 }
 
 section .info .whatsapp {
   margin-bottom: 1rem;
+  display: flex;
+}
+
+section .info .whatsapp>a {
+  display: flex;
+  align-items: center;
+}
+
+section .info .whatsapp img {
+  margin-right: 0.25rem;
+  height: 25px;
 }
 
 section .info .phone {
@@ -50,24 +61,20 @@ section .info .phone {
 
 section .info .instagram {
   height: 4rem;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
 }
 
-.instagram > a {
+.instagram>a {
   display: flex;
   align-items: center;
 }
 
-.instagram > a img {
+.instagram>a img {
   margin-right: 0.5rem;
 }
 
 section .info .instagram img {
-  height: 40px;
+  height: 24px;
 }
-
 
 @media only screen and (min-width: 900px) {
   main {
@@ -105,7 +112,6 @@ section .info .instagram img {
     justify-content: center;
     margin-bottom: 1rem;
   }
-  
   .whatsapp span, .instagram span, .phone span {
     font-size: 24px;
   }
